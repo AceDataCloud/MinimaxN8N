@@ -185,34 +185,13 @@ export const properties: INodeProperties[] = [
       },
     },
     options: [
-      {
-        name: "16:9",
-        value: "16:9",
-      },
-      {
-        name: "9:16",
-        value: "9:16",
-      },
-      {
-        name: "1:1",
-        value: "1:1",
-      },
-      {
-        name: "4:3",
-        value: "4:3",
-      },
-      {
-        name: "3:4",
-        value: "3:4",
-      },
-      {
-        name: "21:9",
-        value: "21:9",
-      },
-      {
-        name: "adaptive",
-        value: "adaptive",
-      },
+      { name: "1:1", value: "1:1" },
+      { name: "16:9", value: "16:9" },
+      { name: "21:9", value: "21:9" },
+      { name: "3:4", value: "3:4" },
+      { name: "4:3", value: "4:3" },
+      { name: "9:16", value: "9:16" },
+      { name: "Adaptive", value: "adaptive" },
     ],
     description:
       "Text generation requires a fixed ratio. Frame animation uses adaptive.",
