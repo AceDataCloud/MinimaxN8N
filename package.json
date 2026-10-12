@@ -1,6 +1,6 @@
 {
   "name": "@acedatacloud/n8n-nodes-minimax",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate MiniMax H3 videos from text, frames and multimodal references, and track tasks in n8n through AceDataCloud.",
   "license": "MIT",
   "homepage": "https://github.com/AceDataCloud/MinimaxN8N",
