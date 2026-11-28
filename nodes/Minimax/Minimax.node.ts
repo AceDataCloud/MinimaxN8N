@@ -20,7 +20,7 @@ import { properties } from "./properties";
 import { buildRequest } from "./request";
 export class Minimax implements INodeType {
   description: INodeTypeDescription = {
-    displayName: "MiniMax H3 by AceDataCloud",
+    displayName: "MiniMax H3",
     name: "minimax",
     icon: { light: "file:icon.png", dark: "file:icon.dark.png" },
     group: ["transform"],
@@ -28,7 +28,7 @@ export class Minimax implements INodeType {
     subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
     description:
       "Generate MiniMax H3 videos from text, frames and multimodal references, and track tasks in n8n through AceDataCloud.",
-    defaults: { name: "MiniMax H3 by AceDataCloud" },
+    defaults: { name: "MiniMax H3" },
     inputs: [NodeConnectionTypes.Main],
     outputs: [NodeConnectionTypes.Main],
     usableAsTool: true,

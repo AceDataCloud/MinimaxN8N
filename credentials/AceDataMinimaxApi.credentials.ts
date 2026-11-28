@@ -7,7 +7,7 @@ import type {
 
 export class AceDataMinimaxApi implements ICredentialType {
   name = "aceDataMinimaxApi";
-  displayName = "MiniMax H3 by AceDataCloud API";
+  displayName = "MiniMax H3 API";
   documentationUrl = "https://github.com/AceDataCloud/MinimaxN8N#credentials";
   icon = "file:../nodes/Minimax/icon.png" as const;
   properties: INodeProperties[] = [
